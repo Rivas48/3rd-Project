@@ -1,0 +1,312 @@
+/***************************
+**************************** 
+			Nav
+****************************
+***************************/
+
+
+h1{
+	width:100%;
+	text-align: center;
+	padding-top: 10px;
+	font-size:20px;
+	font-weight: bold;
+	padding-left: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.nav{
+	background-color:#2a3447;
+	background-size: cover;
+	color:white;
+	display:flex;
+	text-align: center;
+	height:60px;
+	width:320px;
+}
+div.nav{
+	width:100%;
+}
+
+/***************************
+**************************** 
+		Main Elements
+****************************
+***************************/
+
+
+body{
+	margin:0;
+}
+	
+h2{
+	font-size:20px;
+	width:320px;
+	text-align:center;
+
+}
+
+p{
+	text-align:center;
+	width:290px;
+	padding-left: 10px;
+
+}
+hr.style1{
+	border-top:3px solid black;
+	width:300px;
+	margin: 0 0 0 10px;
+}
+
+hr.style2{
+	border-top:1px solid black;
+	width:300px;
+	margin:2px 0 0 10px;
+}
+
+hr.style3{
+	border-top:1px solid black;
+	width:300px;
+
+}
+
+fieldset{
+	border:none;
+}
+
+
+/***************************
+**************************** 
+		Input Field
+****************************
+***************************/
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="address"],
+input[type="city"],
+input[type="select-menu"],
+input[type=""],
+select,
+option
+{
+
+	width:300px;
+	margin-left:10px;
+	background-color: #e8eeef;
+	border:none;
+	border-radius:2px;
+	font-size:20px;
+	margin-bottom: 10px;
+	height:35px;
+	margin-top:10px;
+
+}
+
+input:focus {
+	background-color: white;
+}
+
+label{
+	margin-bottom: 10px;
+}
+
+
+input[type="checkbox"]{
+	margin:15px 0 0 20px;
+}
+
+input[type="radio"]{
+	margin:15px 0 0 20px;
+
+}
+
+label{
+	width:300px;
+	margin-left:10px;
+}
+
+textarea{
+	width:300px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	height:80px;
+	background-color: #e8eeef;
+	border:none;
+}
+
+
+.box{
+	width:200px;
+	border:none;
+	font-size:20px;
+	font-weight: bold
+}
+
+.box2{
+	width:120px;
+	border:none;
+	font-size:20px;
+	font-weight: bold;
+
+}
+.move{
+	width:160px;
+	font-size: 20px;
+	border:none;
+}
+
+.move2{
+	width:250px;
+}
+
+button{
+	width:52%;
+	color:white;
+	background-color:#59c6b6;
+	margin:0px 0 10px 11px;
+	border-radius: 2px; 
+	border:none;
+	height:50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/***************************
+**************************** 
+		MEDIA QUERY
+****************************
+***************************/
+
+
+@media (min-width: 768px){
+
+
+h1{
+	width:768px;
+}
+
+h2{
+	width:768px;
+	margin-bottom: -10px;	
+}
+
+
+p{	
+	width:768px;
+	font-size:14px;
+}
+
+hr.style1,
+hr.style2,
+hr.style3{
+	width:490px;
+	margin-left: 150px;
+}
+
+
+fieldset{
+	margin: 20px 0 0 0;
+}
+
+legend{
+	margin-left:18%;
+}
+
+fieldset.box{
+	width:460px;
+}
+
+fieldset.box2{
+	width:380px;
+}
+
+
+p.move2{
+	width:500px;
+
+}
+
+p.move{
+	width:430px;
+}
+br.breaks{
+	display:none;
+}
+
+input[type="email"],
+input[type="telephone"],
+input[type="address"],
+input[type="city"],
+input[type="select-menu"],
+input[type=""]
+{
+ width:320px;
+ margin-left: 40px;
+
+}
+
+input[type="text"]{
+	margin-left:67px;
+	width:320px;
+}
+
+input.city{
+	margin-left:110px;
+	width:320px;
+}
+
+input[type=""]{
+	margin-left:73px;
+	width:120px;
+}
+
+select{
+	margin-left:105px;
+	width:325px;
+	background-color: #e8eeef;
+}
+label{
+	width:100px;
+	margin-left: 150px
+}
+.checks{
+	margin-left: 20px;
+}
+input[type="tel"]{
+	margin-left: 40px;
+	width:320px;
+}
+
+input#State.state{
+	margin-left:105px;
+}
+
+input.address{
+	margin-left: 42px ;
+}
+
+input[type="checkbox"]{
+	margin-left: 150px ;
+}
+
+input[type="radio"]{
+	margin-left: 150px;
+
+}
+
+#zip{
+	margin-left: 78px;
+}
+textarea{
+	margin-left:150px;
+	width:500px;
+}
+button{
+	margin-left: 150px;
+	width:500px;
+}
+}

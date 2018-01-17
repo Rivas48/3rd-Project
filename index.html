@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Onine Registration Form</title>
+	</head>
+	<body>
+		<div class="nav">
+		<h1>THE CODE REVIEW</h1>
+		</div>
+		<h2>Signup for our newsletter</h2>
+		<p>Get the Latest News on how your code is doing right now in your inbox</p>
+ 		<hr class="style1">
+ 		<hr class="style2">
+ 		<form action="index.html" method="post">
+ 			<fieldset>
+				<legend class="box">Contact Information</legend>
+
+
+				<label for="name">Full Name</label><br class="breaks">
+				<input class="moveon" type="text" id="name" name="user-name" placeholder="Required"><br>
+
+				<label for="mail">Email Address</label><br class="breaks">
+				<input class="moveon" type="email" id="mail" name="user-email" placeholder="Required"><br>
+
+				<label for="number" class="phone">Phone Number</label><br class="breaks">
+				<input id="number" type="tel" name="user-number"><br>
+
+				<label for="street">Street Address</label><br class="breaks">
+				<input type="text" id="street" name="user-address" class="address"><br>
+
+				<label for="town">City</label>
+				<input type="text" id="town" name="user-town" class="city"><br>
+
+				<label for="State">State</label><br class="breaks">
+
+				<select id="State" name="state">
+					<option value="" disabled selected>Choose State</option>
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
+					<option value="AR">Arkansas</option>
+					<option value="CA">California</option>
+					<option value="CO">Colorado</option>
+					<option value="CT">Connecticut</option>
+					<option value="DE">Delaware</option>
+					<option value="DC">District Of Columbia</option>
+					<option value="FL">Florida</option>
+					<option value="GA">Georgia</option>
+					<option value="HI">Hawaii</option>
+					<option value="ID">Idaho</option>
+					<option value="IL">Illinois</option>
+					<option value="IN">Indiana</option>
+					<option value="IA">Iowa</option>
+					<option value="KS">Kansas</option>
+					<option value="KY">Kentucky</option>
+					<option value="LA">Louisiana</option>
+					<option value="ME">Maine</option>
+					<option value="MD">Maryland</option>
+					<option value="MA">Massachusetts</option>
+					<option value="MI">Michigan</option>
+					<option value="MN">Minnesota</option>
+					<option value="MS">Mississippi</option>
+					<option value="MO">Missouri</option>
+					<option value="MT">Montana</option>
+					<option value="NE">Nebraska</option>
+					<option value="NV">Nevada</option>
+					<option value="NH">New Hampshire</option>
+					<option value="NJ">New Jersey</option>
+					<option value="NM">New Mexico</option>
+					<option value="NY">New York</option>
+					<option value="NC">North Carolina</option>
+					<option value="ND">North Dakota</option>
+					<option value="OH">Ohio</option>
+					<option value="OK">Oklahoma</option>
+					<option value="OR">Oregon</option>
+					<option value="PA">Pennsylvania</option>
+					<option value="RI">Rhode Island</option>
+					<option value="SC">South Carolina</option>
+					<option value="SD">South Dakota</option>
+					<option value="TN">Tennessee</option>
+					<option value="TX">Texas</option>
+					<option value="UT">Utah</option>
+					<option value="VT">Vermont</option>
+					<option value="VA">Virginia</option>
+					<option value="WA">Washington</option>
+					<option value="WV">West Virginia</option>
+					<option value="WI">Wisconsin</option>
+					<option value="WY">Wyoming</option>
+					</select><br>
+				<label for="Zip">Zip Code</label><br class="breaks">
+				<input type="text" id="Zip" name="code"><br>
+			</fieldset>
+			<hr class=style3>
+			<fieldset>
+				<legend class="box2">Newsletter</legend>
+				<p class="move2">Select the newsletter would like to recieve</p>
+
+				<input type="radio" id="first" name="first"> 
+				<label class="checks" for=first>HTML News</label><br>
+				<input type="checkbox" id="second" name="second">
+				<label class="checks" for="second">CSS News</label><br>
+				<input type="checkbox" id="third" name="third">
+				<label class="checks" for="third">Javascript News</label>
+				<p class="move">Newsletter format</p>
+				<input type="radio" id="fourth" name="News">
+				<label class="checks" for="fourth">HTML</label><br>
+				<input type="radio" id="fifth" name="News">
+				<label class="checks" for="fifth">Plain Text</label><br>
+				<p class="move2">Other topics you'd like to hear about</p>
+				<textarea></textarea>
+				<button type="submit">Sign Up</button>
+			</fieldset>
+		</form>
+		<p> Copyright The Code Review</p>
+	</body>
+</HTML>
