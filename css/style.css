@@ -23,7 +23,6 @@ h1{
 	display:flex;
 	text-align: center;
 	height:60px;
-	width:320px;
 }
 div.nav{
 	width:100%;
@@ -42,32 +41,26 @@ body{
 	
 h2{
 	font-size:20px;
-	width:320px;
 	text-align:center;
-
 }
 
 p{
 	text-align:center;
-	width:290px;
-	padding-left: 10px;
-
 }
+
 hr.style1{
 	border-top:3px solid black;
-	width:300px;
+
 	margin: 0 0 0 10px;
 }
 
 hr.style2{
 	border-top:1px solid black;
-	width:300px;
 	margin:2px 0 0 10px;
 }
 
 hr.style3{
 	border-top:1px solid black;
-	width:300px;
 
 }
 
@@ -124,8 +117,7 @@ input[type="radio"]{
 }
 
 label{
-	width:300px;
-	margin-left:10px;
+
 }
 
 textarea{
@@ -139,14 +131,12 @@ textarea{
 
 
 .box{
-	width:200px;
 	border:none;
 	font-size:20px;
 	font-weight: bold
 }
 
 .box2{
-	width:120px;
 	border:none;
 	font-size:20px;
 	font-weight: bold;
