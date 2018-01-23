@@ -7,6 +7,7 @@
 	<title>Onine Registration Form</title>
 	</head>
 	<body>
+		<!-- Nav -->
 		<div class="nav">
 		<h1>THE CODE REVIEW</h1>
 		</div>
@@ -14,29 +15,29 @@
 		<p>Get the Latest News on how your code is doing right now in your inbox</p>
  		<hr class="style1">
  		<hr class="style2">
+ 		<!-- Form -->
  		<form action="index.html" method="post">
- 			<fieldset>
+ 			<fieldset class="fill-out">
 				<legend class="box">Contact Information</legend>
-
-
+		<!-- Input & Labels -->
+				<div>
+		<!-- Name -->
 				<label for="name">Full Name</label><br class="breaks">
 				<input class="moveon" type="text" id="name" name="user-name" placeholder="Required"><br>
-
+		<!-- Email -->
 				<label for="mail">Email Address</label><br class="breaks">
 				<input class="moveon" type="email" id="mail" name="user-email" placeholder="Required"><br>
-
+		<!-- Phone Number -->
 				<label for="number" class="phone">Phone Number</label><br class="breaks">
 				<input id="number" type="tel" name="user-number"><br>
-
+		<!-- Address -->
 				<label for="street">Street Address</label><br class="breaks">
 				<input type="text" id="street" name="user-address" class="address"><br>
-
-				<label for="town">City</label>
-				<input type="text" id="town" name="user-town" class="city"><br>
-
-				<label for="State">State</label><br class="breaks">
-
-				<select id="State" name="state">
+		<!-- City -->
+				<label for="town">City</label><br class="breaks">
+				<input type="text" id="town" name="user-town" class="city"><br class="breaks">
+		<!-- State -->
+				<select id="state" name="state">
 					<option value="" disabled selected>Choose State</option>
 					<option value="AL">Alabama</option>
 					<option value="AK">Alaska</option>
@@ -90,25 +91,28 @@
 					<option value="WI">Wisconsin</option>
 					<option value="WY">Wyoming</option>
 					</select><br>
+		<!-- Zip -->
 				<label for="Zip">Zip Code</label><br class="breaks">
 				<input type="text" id="Zip" name="code"><br>
+			</div>
 			</fieldset>
 			<hr class=style3>
 			<fieldset>
+		<!-- Newsletter Radio & Checks -->
 				<legend class="box2">Newsletter</legend>
 				<p class="move2">Select the newsletter would like to recieve</p>
-
-				<input type="radio" id="first" name="first"> 
-				<label class="checks" for=first>HTML News</label><br>
-				<input type="checkbox" id="second" name="second">
-				<label class="checks" for="second">CSS News</label><br>
-				<input type="checkbox" id="third" name="third">
-				<label class="checks" for="third">Javascript News</label>
+			
+				<div class="radio-checks"><input type="radio" id="first" name="first"> 
+				<label class="checks" for=first>HTML News</label><br></div>
+				<div class="radio-checks"><input type="checkbox" id="first" name="first">
+				<label class="checks" for="first">CSS News</label><br></div>
+				<div class="radio-checks"><input type="checkbox" id="first" name="first">
+				<label class="checks" for="first">Javascript News</label></div>
 				<p class="move">Newsletter format</p>
-				<input type="radio" id="fourth" name="News">
-				<label class="checks" for="fourth">HTML</label><br>
-				<input type="radio" id="fifth" name="News">
-				<label class="checks" for="fifth">Plain Text</label><br>
+				<div class="radio-checks"><input type="radio" id="first" name="News">
+				<label class="checks" for="first">HTML</label><br></div>
+				<div class="radio-checks"><input type="radio" id="first" name="News">
+				<label class="checks" for="first">Plain Text</label><br></div>
 				<p class="move2">Other topics you'd like to hear about</p>
 				<textarea></textarea>
 				<button type="submit">Sign Up</button>
